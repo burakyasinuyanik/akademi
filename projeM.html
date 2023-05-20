@@ -1,0 +1,71 @@
+<html>
+    <title>Project</title>
+
+    <body>
+        <form action="magement" method="get">
+        <table>
+            <tr>
+                
+                <td colspan="2" align="center">
+                    <h3> <u>Project Management</u> </h3>
+                </td>             
+            </tr>
+        </table>
+        <table border="0.5" cellpadding="10" cellspacing="10" bgcolor="#30d5c8">
+            <tr>
+                <td>
+                    <strong>Project Name</strong>
+                </td>
+                <td>
+                    <input type="text" name="name" id="name" placeholder="Project Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Assigned to</strong>
+                </td>
+                <td>
+                    <select name="assigned" id="assigned">
+                    <option value="1" id="ayhan">Ayhan Barış </option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Start Date</strong>
+                </td>
+                <td><input type="date" name="startDate" id="startDate"></td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>End Date</strong>
+                </td>
+                <td><input type="date" name="endDate" id="endDate"></td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Priority</strong>
+                </td>
+                <td><input type="radio" name="level" id="1">High
+                    <input type="radio" name="level" id="1">Average
+                    <input type="radio" name="level" id="1">Low
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Descriptions</strong>   
+                </td>
+                <td>
+                    <textarea name="des" id="des" cols="20" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input  type="submit" id="submit" name="submit" value="Submit" style="background-color: rgb(9, 235, 28);">
+                     <input type="button" id="clear" name="clear" value="Clear" style="background-color: rgb(49, 10, 221);"></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+    
+</html>
